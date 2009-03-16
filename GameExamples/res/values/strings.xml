@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Home</string>
+    <string name="app_name">Game Examples</string>
+	<string name="accelerometer">Accelerometer</string>
+
+	<string name="accuracy_unknown">Accuracy: Unknown</string>
+	<string name="accuracy_unreliable">Accuracy: Unreliable</string>
+	<string name="accuracy_low">Accuracy: Low</string>
+	<string name="accuracy_medium">Accuracy: Medium</string>
+	<string name="accuracy_high">Accuracy: High</string>
+
+	<string name="no_accelerometer">Accelerometer not found on this device.</string>
+	<string name="sensor_list">Sensor List</string>
+	
+	<string name="calibrate">Calibrate</string>
+</resources>
