@@ -10,6 +10,7 @@
 	<string name="accuracy_medium">Accuracy: Medium</string>
 	<string name="accuracy_high">Accuracy: High</string>
 
+	<string name="bouncing_ball">Bouncing Ball</string>
 	<string name="no_accelerometer">Accelerometer not found on this device.</string>
 	<string name="sensor_list">Sensor List</string>
 	

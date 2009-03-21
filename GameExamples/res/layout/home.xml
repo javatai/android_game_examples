@@ -16,4 +16,10 @@
     	android:layout_height="wrap_content"
     	android:id="@+id/accelerometer_btn"
     	android:text="@string/accelerometer"/>
+    	
+    <Button
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/bouncing_ball_btn"
+    	android:text="@string/bouncing_ball"/>    
 </LinearLayout>

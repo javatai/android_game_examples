@@ -11,6 +11,7 @@ public class Home extends Activity implements OnClickListener {
 	
 	private Button accelerometerBtn;
 	private Button sensorListBtn;
+	private Button bouncingBallBtn;
 	
     /** Called when the activity is first created. */
     @Override
@@ -23,13 +24,18 @@ public class Home extends Activity implements OnClickListener {
         
         sensorListBtn = (Button) findViewById(R.id.sensor_list_btn);
         sensorListBtn.setOnClickListener(this);
-    }
+        
+        bouncingBallBtn = (Button) findViewById(R.id.bouncing_ball_btn);
+        bouncingBallBtn.setOnClickListener(this);
+    } 
     
     public void onClick(View v) {
     	if (v == sensorListBtn) {
     		startActivity(new Intent(Home.this, Sensors.class));
     	} else if (v == accelerometerBtn) {
     		startActivity(new Intent(Home.this, Accel.class));
+    	} else if (v == bouncingBallBtn) {
+    		startActivity(new Intent(Home.this, BouncingBallActivity.class));
     	}
     }
 }
