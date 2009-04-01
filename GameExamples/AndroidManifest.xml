@@ -14,6 +14,7 @@
     <activity android:name="Accel" android:label="@string/accelerometer"></activity>
     <activity android:name="Sensors" android:label="@string/sensor_list"></activity>
     <activity android:name="BouncingBallActivity"/>
+    <activity android:name="BubblesActivity"/>
 </application>
 <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
 </manifest> 

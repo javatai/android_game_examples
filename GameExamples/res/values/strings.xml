@@ -11,8 +11,8 @@
 	<string name="accuracy_high">Accuracy: High</string>
 
 	<string name="bouncing_ball">Bouncing Ball</string>
+	<string name="bubbles">Bubbles</string>
 	<string name="no_accelerometer">Accelerometer not found on this device.</string>
 	<string name="sensor_list">Sensor List</string>
-	
 	<string name="calibrate">Calibrate</string>
 </resources>
